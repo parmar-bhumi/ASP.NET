@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "registration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Form</h2>
+
+<form action="" method="post" class="form-control">
+    <label class="form-label">User name</label>
+    <input type="text" name="uname" class="form-control" />
+
+    <label class="form-label">Password</label>
+    <input type="password" name="password" class="form-control" />
+
+    <label class="form-label">conform password</label>
+    <input type="password" name="cpwd" class="form-control" />
+
+    <label class="form-label">First name</label>
+    <input type="text" name="fname" class="form-control" />
+
+    <label class="form-label">Last name</label>
+    <input type="text" name="lname" class="form-control" />
+
+    <label class="form-label">City</label>
+    <select class="form-select form-select-lg mb-3">
+        <option selected>select city</option>
+        <option value="1">Rajkot</option>
+        <option value="2">morbi</option>
+        <option value="3">surat</option>
+    </select>
+
+    <label class="form-label">Email</label>
+    <input type="email" name="mail" class="form-control" /><br />
+
+
+
+    <button><a href="~/Home/registration">Submit</a></button>
+
+</form>

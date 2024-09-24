@@ -1,0 +1,54 @@
+﻿@model Task.Models.student
+@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/Mylayout.cshtml";
+}
+
+<h2>Form</h2>
+
+@{
+    List<SelectListItem> obj = new List<SelectListItem>()
+    {
+        new SelectListItem(){Text="Rajkot",Value="1"},
+        new SelectListItem(){Text="Morbi",Value="2"},
+        new SelectListItem(){Text="Surat",Value="3"}
+    };
+}
+
+@using (Html.BeginForm("Form", "Home", FormMethod.Post))
+{
+    <label for="fname">First Name</label>
+    @Html.TextBoxFor(m => m.fname, new { @class = "form-control" })<br /><br />
+    <label for="lname">Last Name</label>
+    @Html.TextBoxFor(m => m.lname, new { @class = "form-control" })<br /><br />
+    <label for="fname">Address</label>
+    @Html.TextBoxFor(m => m.address, new { @class = "form-control" })<br />
+    <label>Male</label>
+    @Html.RadioButtonFor(m => m.Gender, "Male")
+    <label>Female</label>
+    @Html.RadioButtonFor(m => m.Gender, "Female")
+    <div>
+        @Html.DropDownListFor(m => m.city, obj)
+    </div>
+
+    <div style="margin-top:20px">
+        <input type="submit" value="submit" name="submit" />
+    </div>
+}
+
+<table class="table table-bordered" style="margin-top:50px">
+    <tr>
+        <td>Fname</td>
+        <td>Lname</td>
+        <td>Address</td>
+        <td>Gender</td>
+        <td>City</td>
+    </tr>
+    <tr>
+        <td>@ViewBag.fname</td>
+        <td>@ViewBag.lname</td>
+        <td>@ViewBag.address</td>
+        <td>@ViewBag.Gender</td>
+        <td>@ViewBag.city</td>
+    </tr>
+</table>

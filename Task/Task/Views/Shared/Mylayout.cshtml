@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Mylayout</title>
+</head>
+<body>
+    <div> 
+        <table border="1" width="100%" height="550px">
+            <tr>
+                <td colspan="2" align="center">Header</td>
+            </tr>
+            <tr>
+                <td width="50%">
+                    <a href="/home">Home</a><br />
+                    <a href="/home/aboutus">About</a><br />
+                    <a href="/home/contactus">Contact us</a></td>
+                <td>@RenderBody()</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">Footer</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

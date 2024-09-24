@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\mvc .net\\project_stronglytyped\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B35E982-1542-409C-A21C-910C008DB9AD}|my_project\\my_project.csproj|D:\\mvc .net\\project_stronglytyped\\my_project\\Models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B35E982-1542-409C-A21C-910C008DB9AD}|my_project\\my_project.csproj|solutionrelative:my_project\\Models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B35E982-1542-409C-A21C-910C008DB9AD}|my_project\\my_project.csproj|D:\\mvc .net\\project_stronglytyped\\my_project\\Views\\Home\\Contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B35E982-1542-409C-A21C-910C008DB9AD}|my_project\\my_project.csproj|solutionrelative:my_project\\Views\\Home\\Contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B35E982-1542-409C-A21C-910C008DB9AD}|my_project\\my_project.csproj|D:\\mvc .net\\project_stronglytyped\\my_project\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B35E982-1542-409C-A21C-910C008DB9AD}|my_project\\my_project.csproj|solutionrelative:my_project\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B35E982-1542-409C-A21C-910C008DB9AD}|my_project\\my_project.csproj|d:\\mvc .net\\project_stronglytyped\\my_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B35E982-1542-409C-A21C-910C008DB9AD}|my_project\\my_project.csproj|solutionrelative:my_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B35E982-1542-409C-A21C-910C008DB9AD}|my_project\\my_project.csproj|D:\\mvc .net\\project_stronglytyped\\my_project\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B35E982-1542-409C-A21C-910C008DB9AD}|my_project\\my_project.csproj|solutionrelative:my_project\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\mvc .net\\project_stronglytyped\\my_project\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "my_project\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\mvc .net\\project_stronglytyped\\my_project\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "my_project\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T11:10:21.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "student.cs",
+              "DocumentMoniker": "D:\\mvc .net\\project_stronglytyped\\my_project\\Models\\student.cs",
+              "RelativeDocumentMoniker": "my_project\\Models\\student.cs",
+              "ToolTip": "D:\\mvc .net\\project_stronglytyped\\my_project\\Models\\student.cs",
+              "RelativeToolTip": "my_project\\Models\\student.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T11:12:29.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\mvc .net\\project_stronglytyped\\my_project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "my_project\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\mvc .net\\project_stronglytyped\\my_project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "my_project\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAEAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T08:06:29.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\mvc .net\\project_stronglytyped\\my_project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "my_project\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\mvc .net\\project_stronglytyped\\my_project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "my_project\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T08:05:33.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\mvc .net\\project_stronglytyped\\my_project\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "my_project\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\mvc .net\\project_stronglytyped\\my_project\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "my_project\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T11:11:32.62Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

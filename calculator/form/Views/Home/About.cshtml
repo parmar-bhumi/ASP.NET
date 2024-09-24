@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>About</title>
+</head>
+<body>
+    <div> 
+        About
+        @using (Html.BeginForm("About", "Home", FormMethod.Post))
+            {
+                @Html.TextBox("fname")<br />
+                @Html.TextBox("lname")<br />
+                <input type="submit" value="submit"/>
+            }
+    </div>
+</body>
+</html>

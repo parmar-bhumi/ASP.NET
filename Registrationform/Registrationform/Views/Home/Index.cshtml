@@ -1,0 +1,30 @@
+﻿@model List<Registrationform.Models.student>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login form</title>
+    
+</head>
+<body>
+
+    <div class="container">
+        <h2>Login form</h2>
+
+        <label for="name">Username:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br />
+
+        <button><a href="~/Home/registration">Submit</a></button>
+        <button><a href="">sign up</a></button>
+
+    </div>
+
+</body>
+</html>
